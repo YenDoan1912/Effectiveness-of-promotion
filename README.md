@@ -4,6 +4,7 @@ Xem xét độ hiệu quả của chương trình khuyến mãi cho các sản p
 Bối cảnh Trong năm 2020, đội Marketing đã thực hiện nhiều chương trình khuyến mãi cho các sản phẩm thanh toán tiền điện. Chúng ta cần phải nghiên cứu những chương trình khuyến mãi đó có hiệu quả hay không để lên kế hoạch marketing trong năm nay
 
 Thông tin bộ dữ liệu:
+
 Bảng 1: fact_transaction_2020 Nơi lưu trữ thông tin của các cuộc giao dịch diễn ra trong năm 2020 với các cột trường thông tin: - transaction_id (PK, int) - customer_id (int) - scenario_id (FK, nvarchar) - payment_channel_id (FK, nvarchar) - promotion_id (nvarchar) - status_id (FK, smallint)
 
 Bảng 2: dim_scenario Mô tả chi tiết của các loại giao dịch, bao gồm: - scenario_id (PK, nvarchar) - transaction_type (nvarchar) - sub_category (nvarchar) - category (nvarchar)
